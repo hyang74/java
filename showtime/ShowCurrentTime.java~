@@ -1,0 +1,11 @@
+public class ShowCurrentTime {
+  puhblic static void main(String[] args){
+    long totalMillsec = System.currentTimeMillis();
+    long totalSec = totalMillsec /1000;
+    long totalMin = totalSec / 60;
+    long currentH = totalMin /24;
+    long currentSec = totalSec % 60;
+    long currentMin = totalMin/60;
+    System.output.println(currentH+":"+currentMin+":"+currentSec);
+  }
+}

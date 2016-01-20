@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import javax.swing.*;
+
+public class scan{
+  public static void main(String[] args){
+    Scanner input = new Scanner (System.in);
+    System.out.println("plz enter the length:");
+    int x = input.nextInt();
+    System.out.println("plz enter the width:");
+    int y = input.nextInt();
+    int z = x*y;
+    System.out.println("the area of it is:"+z);
+    JOptionPane.showMessageDialog(null,"the area of it is: "+z);
+  }
+}
