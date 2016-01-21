@@ -1,0 +1,9 @@
+import javax.swing.*;
+public class inputDialog
+{
+  public static main(String[] args)
+  {
+    String in = JOptionPane.showInputDialog (null,"plz enter something:","input",JoptionPane.QUESTION_MESSAGE);
+    JoptionPane.showMessageDialog(null, in);
+  }
+}
